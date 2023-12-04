@@ -1,23 +1,27 @@
 # Rock, Paper, Scissors Game
 
-This is a simple Rock, Paper, Scissors game implemented in JavaScript. The game is played in the console, and the player competes against the computer in a best-of-five format.
+This is a simple Rock, Paper, Scissors game implemented using HTML, CSS, and JavaScript. It allows users to play against the computer in a classic game of Rock, Paper, Scissors.
 
 ## How to Play
 
 1. Open the `index.html` file in a web browser.
-2. Open the browser's console to view game results and prompts.
-3. Enter your choice (Rock, Paper, or Scissors) when prompted.
-4. The game will display the results of each round and declare the overall winner at the end of five rounds.
+2. Click on one of the buttons (Rock, Paper, or Scissors) to make your selection.
+3. The computer will randomly choose its move.
+4. The result of the round will be displayed, along with the updated score.
+5. Continue playing until one player reaches a score of 5, and the winner will be declared.
 
-## Files
+## Files and Structure
 
-- `index.html`: HTML file to link to the JavaScript file.
-- `script.js`: JavaScript file containing the game logic.
-  
-## How It Works
+- `index.html`: Contains the HTML structure of the game.
+- `script.js`: Implements the game logic and interactions.
+- `style.css`: Provides styling for the game interface.
 
-- The computer's choice is randomly generated using the `getComputerChoice` function.
-- Each round is played using the `playRound` function, which compares the player's and computer's choices.
-- The game function runs five rounds, updating scores and declaring a winner at the end.
+## Getting Started
 
-Feel free to explore and modify the code to enhance the game!
+1. Clone the repository.
+2. Open the index.html file in your preferred web browser.
+3. Start playing and enjoy the game!
+
+## Acknowledgments
+
+- The game was created as a simple project for learning and practicing basic web development concepts.
